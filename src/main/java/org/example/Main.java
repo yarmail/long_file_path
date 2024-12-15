@@ -26,7 +26,7 @@ public class Main {
             stack.push(entry);
           } else if (Files.isRegularFile(entry)) {
             if (entry.toString().length() > MAX_PATH_LENGTH) {
-              System.out.println(entry.toString());
+              System.out.println(entry);
             }
           }
         }
@@ -37,11 +37,5 @@ public class Main {
         throw new RuntimeException(e);
       }
     }
-
-
-
-
-
-
   }
 }
