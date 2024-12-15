@@ -10,7 +10,7 @@ import java.util.ArrayDeque;
  */
 public class Main {
   private static final int MAX_PATH_LENGTH = 250;
-  private static final String stringPathToFolder = "E:\\";
+  private static final String stringPathToFolder = "C:\\";
 
   public static void main(String[] args) {
     Path pathToFolder = Paths.get(stringPathToFolder);
